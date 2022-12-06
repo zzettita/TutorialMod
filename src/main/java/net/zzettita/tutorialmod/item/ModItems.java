@@ -1,9 +1,7 @@
 package net.zzettita.tutorialmod.item;
 
-import net.fabricmc.fabric.api.item.v1.FabricItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.zzettita.tutorialmod.TutorialMod;
@@ -11,10 +9,10 @@ import net.zzettita.tutorialmod.TutorialMod;
 public class ModItems {
 
     public static final Item RAW_TANZANITE = registerItem("raw_tanzanite",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.TANZANITE)));
 
     public static final Item TANZANITE = registerItem("tanzanite",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.TANZANITE)));
 
 
 
